@@ -38,7 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Activity\\": "src"
+            "Jurager\\Activity\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -46,7 +46,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Activity\\Test\\": "tests"
+            "Jurager\\Activity\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -56,7 +56,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Activity\\ActivitylogServiceProvider"
+                "Jurager\\Activity\\ActivitylogServiceProvider"
             ]
         }
     }
