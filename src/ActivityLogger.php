@@ -123,6 +123,11 @@ class ActivityLogger
         return $this;
     }
 
+    public function with($properties)
+    {
+        return $this->withProperties($properties);
+    }
+
     /**
      * @param string $key
      * @param mixed $value
