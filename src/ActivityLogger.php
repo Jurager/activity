@@ -78,6 +78,11 @@ class ActivityLogger
 		return $this;
 	}
 
+    public function for(Model $model)
+    {
+        return $this->entityFor($model);
+    }
+
     public function on(Model $model)
     {
         return $this->performedOn($model);
